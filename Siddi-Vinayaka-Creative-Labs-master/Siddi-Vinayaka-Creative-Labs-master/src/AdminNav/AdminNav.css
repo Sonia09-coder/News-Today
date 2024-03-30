@@ -1,0 +1,33 @@
+.NewNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .NewNav li {
+    float: left;
+  }
+  
+  .NewNav li a {
+  
+    display: block;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .NewNav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .logout {
+    background-color: #890505;
+  }
+  .NewNav .logout{
+      float: right;
+  }
